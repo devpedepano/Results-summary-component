@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+
+  <main class="main-container">
+
+    <section class="result-container">
+      <h1 class="result-title">Your Result</h1>
+
+      <div class="result-score-container">
+        <p class="result-score-primary">76</p>
+        <p class="result-score-secondary">of 100</p>
+      </div>
+
+      <div class="result-score-text-container">
+        <h2 class="result-score-text-primary">Great</h2>
+        <p class="result-score-text-secondary">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+
+    <section class="summary-container">
+      <h2 class="summary-title">Summary</h2>
+
+      <div class="summary-categories-container">
+
+        <div class="summary-category-container reaction-container">
+          <img class="summary-category-icon reaction-icon" src="./assets/images/icon-reaction.svg" alt="reaction icon"></img>
+          <h3 class="summary-category-title">Reaction</h3>
+          <p class="summary-category-score primary">80</p>
+          <p class="summary-category-score secondary"> / 100</p>
+        </div>
+
+        <div class="summary-category-container memory-container">
+          <img class="summary-category-icon memory-icon" src="./assets/images/icon-memory.svg" alt="memory icon"></img>
+          <h3 class="summary-category-title">Memory</h3>
+          <p class="summary-category-score primary">92</p>
+          <p class="summary-category-score secondary"> / 100</p>
+        </div>
+
+        <div class="summary-category-container verbal-container">
+          <img class="summary-category-icon verbal-icon" src="./assets/images/icon-verbal.svg" alt="verbal icon"></img>
+          <h3 class="summary-category-title">Verbal</h3>
+          <p class="summary-category-score primary">61</p>
+          <p class="summary-category-score secondary"> / 100</p>
+        </div>
+
+        <div class="summary-category-container visual-container">
+          <img class="summary-category-icon visual-icon" src="./assets/images/icon-visual.svg" alt="visual icon"></img>
+          <h3 class="summary-category-title">Visual</h3>
+          <p class="summary-category-score primary">72</p>
+          <p class="summary-category-score secondary"> / 100</p>
+        </div>
+
+      </div>
+
+      <button class="summary-continue-btn">Continue</button>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>
